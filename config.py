@@ -20,10 +20,10 @@ APP_ID = int(os.environ.get("APP_ID", "24415476"))
 API_HASH = os.environ.get("API_HASH", "b7e95707cbf8548a5a6943174533f9a6")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002414990605"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "")
+OWNER = os.environ.get("OWNER", "1748933027")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
